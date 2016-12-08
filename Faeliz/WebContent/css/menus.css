@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+#menu_top /* Ensemble du menu */
+{
+	display:inline-block;
+	border:none;
+	border:0px;
+	margin-left:10%;
+	padding:0px;
+	font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	width:80%;
+}
+
+
+
+#menu_top ul 
+{		
+	background:#90F;
+	height:50px;
+	list-style:none;
+	margin:0;
+	padding:0;
+ 	text-align : center;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	-webkit-box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, .1);
+	-moz-box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, .1);
+	box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, .1);
+}
+
+
+
+#menu_top li a /* Contenu des listes */
+{
+    display : block; /* on change le type d'élément, les liens deviennent des balises de type block */
+    margin: 0px;
+    padding : 0px;
+    color : #fff; /* couleur du texte */
+    text-decoration : none; /* on supprime le style par défaut des liens (la plupart du temps = souligné) */
+    width : 250px; /* largeur */
+    text-align:center;
+    line-height: 50px;
+}
+
+#menu_top li /* Éléments des listes */      
+{ 
+     float : left; 
+     padding: 0px 0px 0px 15px;
+}
+
+
+#menu_top li ul /* Sous-listes */
+{ 	
+/* 	display:none; */
+	height:auto;
+	padding:0px;
+	margin:0px;
+	border:0px;
+	position:absolute;
+	width:250px;
+	z-index:200;
+    visibility: hidden;
+}
+
+#menu_top li li {
+	display:block;
+	float:none;
+	margin:0px;
+	padding:0px 0px 0px 0px;
+	width:250px;
+	background:purple;
+}
+
+#menu_top li a:hover /* Lorsque la souris passe sur un des liens */    
+{
+    color:#FFFFFF;
+	text-decoration:none;
+	-webkit-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3);
+	-moz-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3);
+	box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3);
+}
+
+#menu_top li:hover ul /* Sous-listes */
+{ 
+    position: absolute; /* Position absolue */
+    width: 200px; /* Largeur des sous-listes */
+    visibility: visible;
+}
+
+#menu_hots {
+	margin-top: 100px;
+	margin-left: 25px;
+	font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+}
+
+#menu_hots ul {
+	float : left; 
+	padding: 0px;
+	
+}
+
+#menu_hots li /* Éléments des listes */      
+{ 
+	display : block;
+    padding: 0px 0px 0px 15px;
+}
+
+#menu_hots li a /* Contenu des listes */
+{
+	
+	background:#90F;
+    margin: 0px;
+    padding : 0px;
+    color : #fff; /* couleur du texte */
+    text-decoration : none; /* on supprime le style par défaut des liens (la plupart du temps = souligné) */
+    text-align:center;
+    height: 50px;
+    width: 100px;
+}
