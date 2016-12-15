@@ -1,0 +1,134 @@
+@CHARSET "UTF-8";
+
+
+/* ----------------------------------------------------------------------------- */
+/* ------------------ MENU HEROES------------------------------------------------*/
+/* ----------------------------------------------------------------------------- */
+
+
+#menu_hots {
+	margin: 50px;
+	margin-top: 100px;
+	font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	height : 500px;
+	float : left; 
+	text-align:center;
+	border: 1px solid yellow;
+	position: static;
+}
+
+#menu_hots ul {
+	list-style:none;
+}
+
+#menu_hots li, #menu_hots li a /* Éléments des listes */      
+{ 	
+	background:#90F;
+    margin: 5px;
+    padding : 0px;
+    color : #fff; /* couleur du texte */
+    text-decoration : none; /* on supprime le style par défaut des liens (la plupart du temps = souligné) */
+    text-align:center;
+    height:30px;
+    width: 200px;   
+    -webkit-box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, .1);
+	-moz-box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, .1);
+	box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, .1);
+    -ms-transform: skewX(170deg); /* IE 9 */
+    -webkit-transform: skewX(170deg); /* Chrome, Safari, Opera */
+    transform: skewX(170deg);
+}
+
+/* ----------------------------------------------------------------------------- */
+/* ------------------ PAGE HEROES------------------------------------------------*/
+/* ----------------------------------------------------------------------------- */
+
+body {
+	background-image: 	url(../img/bg.jpg);
+	color: 				white;
+	background-color: 	black;
+}
+
+h1 {
+	margin-left : auto;
+	margin-top: 10px;
+	font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+	font-size:26px;
+	font-style: italic;
+	color: white;
+}
+
+
+#page {
+	display:			flex;
+}
+
+#div_left {
+	display:			inline-block;
+	border-width :		1px ;
+	border-style : 		simple; 
+	border-color : 		yellow;
+	height : 			800px;
+	width :				552px;
+	margin :			10px;
+}
+
+#heros_form {
+	height : 			150px;
+	width : 			550px;
+	border :			1px solid purple;
+	background-color : 	black;
+	text-align:			center;	
+
+}
+
+/* #univers { */
+/* 	border-width :		5px ; */
+/* 	border-style : 		double;  */
+/* 	border-color : 		rgb(155,0,255); */
+/* 	height : 			40px; */
+/* 	margin : 			5px; */
+/* 	text-align : 		center; */
+/* 	padding-top : 		2px; */
+/* 	background-color : 	rgba(155,0,255,.3); */
+/* 	font-size: 			16px;	 */
+/* } */
+
+#heros_form fieldset {
+	border-width :		5px ;
+	border-style : 		double; 
+	border-color : 		rgb(155,0,255);
+	height : 			40px;
+	margin : 			5px;
+	text-align : 		center;
+	padding-top : 		2px;
+	background-color : 	rgba(155,0,255,.3);
+	font-size: 			18px;	
+}
+
+#heros_portraits {
+	border-width :		5px ;
+	border-style : 		double; 
+	border-color : 		rgb(155,0,255);
+	height : 			600px;
+	width :				540px;
+	margin-top :		10px;	
+	text-align : 		center;
+	padding-top : 		2px;
+	background-color : 	rgba(155,0,255,.3);
+	font-size: 			20px;	
+}
+
+
+
+#div_right {
+	display:			inline-block;
+	border-width :		1px ;
+	border-style : 		double; 
+	border-color : 		yellow;
+	height : 			800px;
+	width :				552px;
+	margin :			10px;	
+}
