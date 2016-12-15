@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+
+body {
+	background-color: black;
+	background-image: url(../img/bg.jpg);
+	color: white;
+}
+
 #menu_top /* Ensemble du menu */
 {
 	display:inline-block;
