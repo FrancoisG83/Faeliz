@@ -15,7 +15,7 @@
 	height : 500px;
 	float : left; 
 	text-align:center;
-	border: 1px solid yellow;
+/* 	border: 1px solid yellow; */
 	position: static;
 }
 
@@ -29,8 +29,8 @@
     margin: 5px;
     padding : 0px;
     color : #fff; /* couleur du texte */
-    text-decoration : none; /* on supprime le style par défaut des liens (la plupart du temps = souligné) */
     text-align:center;
+	text-decoration : none; /* on supprime le style par défaut des liens (la plupart du temps = souligné) */
     height:30px;
     width: 200px;   
     -webkit-box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, .1);
@@ -78,23 +78,10 @@ h1 {
 #heros_form {
 	height : 			150px;
 	width : 			550px;
-	border :			1px solid purple;
-	background-color : 	black;
+/* 	border :			1px solid purple; */
 	text-align:			center;	
-
 }
 
-/* #univers { */
-/* 	border-width :		5px ; */
-/* 	border-style : 		double;  */
-/* 	border-color : 		rgb(155,0,255); */
-/* 	height : 			40px; */
-/* 	margin : 			5px; */
-/* 	text-align : 		center; */
-/* 	padding-top : 		2px; */
-/* 	background-color : 	rgba(155,0,255,.3); */
-/* 	font-size: 			16px;	 */
-/* } */
 
 #heros_form fieldset {
 	border-width :		5px ;
@@ -104,31 +91,56 @@ h1 {
 	margin : 			5px;
 	text-align : 		center;
 	padding-top : 		2px;
-	background-color : 	rgba(155,0,255,.3);
+	background-color : 	rgb(47,0,77);
 	font-size: 			18px;	
 }
 
 #heros_portraits {
+	display : 			inline-block;
 	border-width :		5px ;
 	border-style : 		double; 
 	border-color : 		rgb(155,0,255);
 	height : 			600px;
 	width :				540px;
-	margin-top :		10px;	
-	text-align : 		center;
-	padding-top : 		2px;
-	background-color : 	rgba(155,0,255,.3);
+	margin-top :		10px;
+	padding-top : 		10px;
+	background-color : 	rgb(47,0,77);
 	font-size: 			20px;	
+	text-align:			center;
 }
 
+#heros_portraits img {
+	opacity :			0.7;
+	margin :			2px;
+	border-width :		2px ;
+	border-style : 		solid; 
+	border-color : 		rgb(47,0,77);
+}
 
+#heros_portraits img:hover {
+	opacity :			1;
+	border-width :		2px ;
+	border-style : 		inset; 
+	border-color : 		rgb(255,255,255);
+	
+}
 
 #div_right {
 	display:			inline-block;
 	border-width :		1px ;
 	border-style : 		double; 
 	border-color : 		yellow;
-	height : 			800px;
-	width :				552px;
+	height : 			780px;
+	width :				510px;
 	margin :			10px;	
+	background-color : 	rgb(47,0,77);
+}
+
+#image_full img {
+	display :			none;
+	height : 			350px;
+	width :				500px;
+	border-width :		5px ;
+	border-style : 		double; 
+	border-color : 		rgb(155,0,255);
 }

@@ -4,14 +4,14 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Faeliz</title>
-		<link rel="stylesheet" href="../css/pages.css">
+		<link rel="stylesheet" href="../css/pages_hots.css">
 	</head>
 	
 	<body>
 		<header><%@ include file="../WEB-INF/menu.html" %></header>
 		<%@ include file="../html/menu_hots.html" %>
 	
-		<p>Page des maps de hots</p>
+		<h1>Page des maps de hots</h1>
 	
 	</body>
 </html>

@@ -5,7 +5,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 		<title>Hearthstone</title>
-		<link rel="stylesheet" href="../css/pages.css">
+		<link rel="stylesheet" href="../css/pages_hots.css">
 	</head>
 	
 	<body>
