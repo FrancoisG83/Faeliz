@@ -37,11 +37,10 @@ function chk_univers() {
 						}
 					}
 				}
-				
 			}
 		}
 	}
-			
+
 }
 
 function chk_heros(element) {
