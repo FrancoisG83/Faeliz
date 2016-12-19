@@ -4,41 +4,44 @@
 
 function chk_univers() {
 	
-	var listeChk = new Array();;
-	listeChk = document.getElementsByName("chk_univ");
+	var listeChkUniv = new Array();
+	listeChkUniv = document.getElementsByName("chk_univ");
+	
+	var listeChkRole = new Array();
+	listeChkRole = document.getElementsByName("chk_role");
 	
 	var div = document.getElementById("heros_portraits");
-	var tab_child = div.childNodes;
+	var tab_child = div.children;
 
-/*On regarde si les checkbox sont checkées, si oui on execute une regex de la valeur de la check box et on affiche les "enfants"
-	du div portraits heros qui correspondent. 
-	Cette première partie est neccessaire pour réafficher ce qui aurait été masqué par la boucle suivante */
+/*toutes les images sont d'abord effacées*/
+	for (i=0; i<tab_child.length;i++){
+		tab_child[i].style.display = "none";
+	}
+
 	
-	for (i=0; i<listeChk.length; i++) {
-		if (listeChk[i].checked){
-			var expreg = new RegExp(listeChk[i].value) ;
-			for(j=0; j<tab_child.length; j++){
-				if (expreg.test(tab_child[j].name)){
-					tab_child[j].style.display = "inline-block";
+/*On teste les chkbox univers puis role. Sur celles qui sont checkées, ont recupère la value qui devient une expression regulière
+ * Chaque portrait est ensuite testé et doit comporter les deux regex pour etre affiché*/
+	
+	
+	for (i=0; i<listeChkUniv.length; i++) {
+		if (listeChkUniv[i].checked){
+			var expregUniv = new RegExp(listeChkUniv[i].value) ;
+		
+			for (var j=0; j<listeChkRole.length; j++){
+				if (listeChkRole[j].checked){
+					var expregRole = new RegExp(listeChkRole[j].value);
+						
+					for(x=0; x<tab_child.length; x++){
+						if (expregUniv.test(tab_child[x].name) && expregRole.test(tab_child[x].name)){
+							tab_child[x].style.display = "inline-block";
+						}
+					}
 				}
+				
 			}
 		}
 	}
-
-/* cette boucle verifie quelles checkbox ne sont pas selectionnées. 
- * 
- *Elle fait ensuite une regex sur le "name" des enfants du div portraits_heros et rend invisible ceux qui correspondent*/
-	
-	for (i=0; i<listeChk.length; i++) {
-		if (!listeChk[i].checked){
-			var expreg = new RegExp(listeChk[i].value) ;
-			for(j=0; j<tab_child.length; j++){
-				if (expreg.test(tab_child[j].name)){
-					tab_child[j].style.display = "none";
-				}
-			}
-		}
-	}
+			
 }
 
 function chk_heros(element) {
