@@ -59,21 +59,39 @@
 	
 	<div id="div_right">
 		<div id="image_full">
-			<img src="../img/hots/full/auriel.jpg" 		alt="auriel_full" 		id="auriel_full"  	height=350 		width=500/>
-			<img src="../img/hots/full/liming.jpg" 		alt="liming_full" 		id="liming_full"  	height=350 		width=500/>
-			<img src="../img/hots/full/luisaile.jpg" 	alt="luisaile_full" 	id="luisaile_full"  height=350 		width=500/>
-			<img src="../img/hots/full/malfurion.jpg" 	alt="malfurion_full" 	id="malfurion_full" height=350 		width=500/>
-			<img src="../img/hots/full/marteau.jpg" 	alt="marteau_full" 		id="marteau_full"  	height=350 		width=500/>
-			<img src="../img/hots/full/muradin.jpg" 	alt="muradin_full" 		id="muradin_full"  	height=350 		width=500/>
-			<img src="../img/hots/full/sylvanas.jpg" 	alt="sylvanas_full" 	id="sylvanas_full"  height=350 		width=500/>
-			<img src="../img/hots/full/tassadar.jpg" 	alt="tassadar_full" 	id="tassadar_full"  height=350 		width=500/>
-			<img src="../img/hots/full/thrall.jpg" 		alt="thrall_full" 		id="thrall_full"  	height=350 		width=500/>
-			<img src="../img/hots/full/tracer.jpg" 		alt="tracer_full" 		id="tracer_full" 	height=350 		width=500/>
-			<img src="../img/hots/full/tyrael.jpg" 		alt="tyrael_full" 		id="tyrael_full" 	height=350 		width=500/>
-			<img src="../img/hots/full/tyrande.jpg" 	alt="tyrande_full" 		id="tyrande_full"  	height=350 		width=500/>
-			<img src="../img/hots/full/valla.jpg" 		alt="valla_full" 		id="valla_full"  	height=350 		width=500/>
-			<img src="../img/hots/full/vikings.jpg" 	alt="vikings_full" 		id="vikings_full"  	height=350 		width=500/>
-			<img src="../img/hots/full/zarya.jpg" 		alt="zarya_full" 		id="zarya_full"  	height=350 		width=500/>
+			<div id="auriel">
+				<img src="../img/hots/full/auriel.jpg" 		alt="auriel_full" 		id="auriel_full"  	height=350 		width=500/>
+				<span>
+				<label>Auriel</label> <img src="../img/hots/logo/logo_ow.png" alt="Diablo" height=50 	width=50/> <img src="../img/hots/logo/logo_sup.png" alt="Support" height=50 width=50/>
+				</span>
+				<p>Description Auriel </p>
+				<p> Mon avis sur le personnage</p>
+			</div>
+			<div id="liming">
+				<img src="../img/hots/full/liming.jpg" 		alt="liming_full" 		id="liming_full"  	height=350 		width=500/>
+				<label>Li-Ming</label>
+				<p>Description liming </p>
+				<p> Mon avis sur le personnage</p>
+			</div>
+			<div id="luisaile">
+				<img src="../img/hots/full/luisaile.jpg" 	alt="luisaile_full" 	id="luisaile_full"  height=350 		width=500/>
+				<label>luisaile (Brightwing)</label>
+				<p>Description luisaille </p>
+				<p> Mon avis sur le personnage</p>
+			</div>
+			
+<!-- 			<img src="../img/hots/full/malfurion.jpg" 	alt="malfurion_full" 	id="malfurion_full" height=350 		width=500/> -->
+<!-- 			<img src="../img/hots/full/marteau.jpg" 	alt="marteau_full" 		id="marteau_full"  	height=350 		width=500/> -->
+<!-- 			<img src="../img/hots/full/muradin.jpg" 	alt="muradin_full" 		id="muradin_full"  	height=350 		width=500/> -->
+<!-- 			<img src="../img/hots/full/sylvanas.jpg" 	alt="sylvanas_full" 	id="sylvanas_full"  height=350 		width=500/> -->
+<!-- 			<img src="../img/hots/full/tassadar.jpg" 	alt="tassadar_full" 	id="tassadar_full"  height=350 		width=500/> -->
+<!-- 			<img src="../img/hots/full/thrall.jpg" 		alt="thrall_full" 		id="thrall_full"  	height=350 		width=500/> -->
+<!-- 			<img src="../img/hots/full/tracer.jpg" 		alt="tracer_full" 		id="tracer_full" 	height=350 		width=500/> -->
+<!-- 			<img src="../img/hots/full/tyrael.jpg" 		alt="tyrael_full" 		id="tyrael_full" 	height=350 		width=500/> -->
+<!-- 			<img src="../img/hots/full/tyrande.jpg" 	alt="tyrande_full" 		id="tyrande_full"  	height=350 		width=500/> -->
+<!-- 			<img src="../img/hots/full/valla.jpg" 		alt="valla_full" 		id="valla_full"  	height=350 		width=500/> -->
+<!-- 			<img src="../img/hots/full/vikings.jpg" 	alt="vikings_full" 		id="vikings_full"  	height=350 		width=500/> -->
+<!-- 			<img src="../img/hots/full/zarya.jpg" 		alt="zarya_full" 		id="zarya_full"  	height=350 		width=500/> -->
 		</div>
 	
 	</div>

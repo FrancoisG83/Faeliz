@@ -136,8 +136,18 @@ h1 {
 	background-color : 	rgb(47,0,77);
 }
 
-#image_full img {
+#image_full div {
 	display :			none;
+}
+
+#image_full div span {
+	height :			100px;
+	text-align : justify;
+	border-width :		1px ;
+	border-style : 		double; 
+	border-color : 		yellow;
+}
+#image_full img{
 	height : 			350px;
 	width :				500px;
 	border-width :		5px ;
