@@ -1,20 +1,17 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title>Faeliz</title>
-		<link rel="stylesheet" href="../css/pages_hots.css">
-	</head>
+<head>
+	<meta charset="UTF-8">
+	<title>Faeliz</title>
+	<link rel="stylesheet" href="../css/pages_hots.css">
+</head>
+
+<body>
+	<header><%@ include file="../WEB-INF/menu.html" %></header>
+	<%@ include file="../html/menu_hots.html" %>
+	<h1>Les personnages de Heroes of the Storm</h1>
 	
-	<body>
-		<header><%@ include file="../WEB-INF/menu.html" %></header>
-		
-		
-		<%@ include file="../html/menu_hots.html" %>
-		
-		<h1>Les personnages de Heroes of the Storm</h1>
-		
 <div id="page">		
 	<div id="div_left">
 		<form id="heros_form">
@@ -83,22 +80,55 @@
 			</div>
 			<div id="luisaile">
 				<img src="../img/hots/full/luisaile.jpg" 	alt="luisaile_full" 	id="luisaile_full"/>
-				<label>luisaile (Brightwing)</label>
+				<p>
+				<label>Luisaile (Brightwing)</label>
+				<img src="../img/hots/logo/logo_wc.png" alt="Warcraft" />
+				<img src="../img/hots/logo/logo_sup.png" alt="Support" />
+				</p>
 				<p>Description luisaille </p>
 				<p> Mon avis sur le personnage</p>
 			</div>
 			<div id="malfurion">
 				<img src="../img/hots/full/malfurion.jpg" 		alt="malfurion_full" 		id="malfurion_full"/>
-				<span>
-				<label>Malfurion</label> <img src="../img/hots/logo/logo_wc.png" alt="Diablo" /> <img src="../img/hots/logo/logo_sup.png" alt="Support" />
-				</span>
+				<p>
+				<label>Malfurion</label>
+				<img src="../img/hots/logo/logo_wc.png" alt="Warcraft" />
+				<img src="../img/hots/logo/logo_sup.png" alt="Support" />
+				</p>
 				<p>Description Malfurion </p>
 				<p> Mon avis sur le personnage</p>
 			</div>
+			<div id="marteau">
+				<img src="../img/hots/full/marteau.jpg" 		alt="marteau_full" 		id="marteau_full"/>
+				<p>
+				<label>Sergent Marteau (Sgt Hammer)</label> 
+				<img src="../img/hots/logo/logo_sc2.png" alt="Starcraft" />
+				<img src="../img/hots/logo/logo_spe.png" alt="Specialiste" />
+				</p>
+				<p>Description Sergent Marteau </p>
+				<p> Mon avis sur le personnage</p>
+			</div>
+			<div id="muradin">
+				<img src="../img/hots/full/muradin.jpg" 		alt="muradin_full" 		id="muradin_full"/>
+				<p>
+				<label>Muradin</label>
+				<img src="../img/hots/logo/logo_wc.png" alt="Warcraft" />
+				<img src="../img/hots/logo/logo_war.png" alt="Guerrier" />
+				</p>
+				<p>Description Muradin </p>
+				<p> Mon avis sur le personnage</p>
+			</div>
+			<div id="sylvanas">
+				<img src="../img/hots/full/sylvanas.jpg" 		alt="sylvanas_full" 		id="sylvanas_full"/>
+				<p>
+				<label>Sylvanas</label>
+				<img src="../img/hots/logo/logo_wc.png" alt="Warcraft" />
+				<img src="../img/hots/logo/logo_spe.png" alt="Specialiste" />
+				</p>
+				<p>Description Sylvanas </p>
+				<p> Mon avis sur le personnage</p>
+			</div>
 
-<!-- 			<img src="../img/hots/full/marteau.jpg" 	alt="marteau_full" 		id="marteau_full"  	height=350 		width=500/> -->
-<!-- 			<img src="../img/hots/full/muradin.jpg" 	alt="muradin_full" 		id="muradin_full"  	height=350 		width=500/> -->
-<!-- 			<img src="../img/hots/full/sylvanas.jpg" 	alt="sylvanas_full" 	id="sylvanas_full"  height=350 		width=500/> -->
 <!-- 			<img src="../img/hots/full/tassadar.jpg" 	alt="tassadar_full" 	id="tassadar_full"  height=350 		width=500/> -->
 <!-- 			<img src="../img/hots/full/thrall.jpg" 		alt="thrall_full" 		id="thrall_full"  	height=350 		width=500/> -->
 <!-- 			<img src="../img/hots/full/tracer.jpg" 		alt="tracer_full" 		id="tracer_full" 	height=350 		width=500/> -->
