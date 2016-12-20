@@ -29,10 +29,10 @@
 	
 			<fieldset id="role">
 			<legend>Classes</legend>
-				<input type="checkbox" checked="checked" name="chk_univ" value="assa" 	onclick="chk_univers()"/>	<label>Assassin</label>
-				<input type="checkbox" checked="checked" name="chk_univ" value="war" 	onclick="chk_univers()"/>	<label>Guerrier</label>
-				<input type="checkbox" checked="checked" name="chk_univ" value="sup" 	onclick="chk_univers()"/>	<label>Support</label>
-				<input type="checkbox" checked="checked" name="chk_univ" value="spe" 	onclick="chk_univers()"/>	<label>Spécialiste</label>
+				<input type="checkbox" checked="checked" name="chk_role" value="assa" 	onclick="chk_univers()"/>	<label>Assassin</label>
+				<input type="checkbox" checked="checked" name="chk_role" value="war" 	onclick="chk_univers()"/>	<label>Guerrier</label>
+				<input type="checkbox" checked="checked" name="chk_role" value="sup" 	onclick="chk_univers()"/>	<label>Support</label>
+				<input type="checkbox" checked="checked" name="chk_role" value="spe" 	onclick="chk_univers()"/>	<label>Spécialiste</label>
 			</fieldset>
 		</form>
 
@@ -52,6 +52,7 @@
 			<img src="../img/hots/portraits/tyrael.png" 	alt="tyrael_portrait" 		title="Tyraël"		name="sup_dia" 	id="tyrael" 	onclick="chk_heros(this)"/>
 			<img src="../img/hots/portraits/tyrande.png"	alt="tyrande_portrait" 		title="Tyrande"		name="sup_wc" 	id="tyrande" 	onclick="chk_heros(this)"/>
 			<img src="../img/hots/portraits/valla.png" 		alt="valla_portrait" 		title="Valla"		name="assa_dia"	id="valla" 		onclick="chk_heros(this)"/>
+			<img src="../img/hots/portraits/varian.png" 	alt="varian_portrait" 		title="Varian"		name="assa_war_wc"	id="varian" 	onclick="chk_heros(this)"/>
 			<img src="../img/hots/portraits/vikings.png" 	alt="vikings_portrait" 		title="Vikings"		name="spe_autre"id="vikings" 	onclick="chk_heros(this)"/>
 			<img src="../img/hots/portraits/zarya.png" 		alt="zarya_portrait" 		title="Zarya"		name="war_ow" 	id="zarya" 		onclick="chk_heros(this)"/>
 		</div> 
@@ -59,6 +60,7 @@
 	
 	<div id="div_right">
 		<div id="image_full">
+
 			<div id="auriel">
 				<img src="../img/hots/full/auriel.jpg" 		alt="auriel_full" 		id="auriel_full"  	height=350 		width=500/>
 				<span>
@@ -92,6 +94,23 @@
 <!-- 			<img src="../img/hots/full/valla.jpg" 		alt="valla_full" 		id="valla_full"  	height=350 		width=500/> -->
 <!-- 			<img src="../img/hots/full/vikings.jpg" 	alt="vikings_full" 		id="vikings_full"  	height=350 		width=500/> -->
 <!-- 			<img src="../img/hots/full/zarya.jpg" 		alt="zarya_full" 		id="zarya_full"  	height=350 		width=500/> -->
+
+			<img src="../img/hots/full/auriel.jpg" 		alt="auriel_full" 		id="auriel_full"  	height=350 		width=500/>
+			<img src="../img/hots/full/liming.jpg" 		alt="liming_full" 		id="liming_full"  	height=350 		width=500/>
+			<img src="../img/hots/full/luisaile.jpg" 	alt="luisaile_full" 	id="luisaile_full"  height=350 		width=500/>
+			<img src="../img/hots/full/malfurion.jpg" 	alt="malfurion_full" 	id="malfurion_full" height=350 		width=500/>
+			<img src="../img/hots/full/marteau.jpg" 	alt="marteau_full" 		id="marteau_full"  	height=350 		width=500/>
+			<img src="../img/hots/full/muradin.jpg" 	alt="muradin_full" 		id="muradin_full"  	height=350 		width=500/>
+			<img src="../img/hots/full/sylvanas.jpg" 	alt="sylvanas_full" 	id="sylvanas_full"  height=350 		width=500/>
+			<img src="../img/hots/full/tassadar.jpg" 	alt="tassadar_full" 	id="tassadar_full"  height=350 		width=500/>
+			<img src="../img/hots/full/thrall.jpg" 		alt="thrall_full" 		id="thrall_full"  	height=350 		width=500/>
+			<img src="../img/hots/full/tracer.jpg" 		alt="tracer_full" 		id="tracer_full" 	height=350 		width=500/>
+			<img src="../img/hots/full/tyrael.jpg" 		alt="tyrael_full" 		id="tyrael_full" 	height=350 		width=500/>
+			<img src="../img/hots/full/tyrande.jpg" 	alt="tyrande_full" 		id="tyrande_full"  	height=350 		width=500/>
+			<img src="../img/hots/full/valla.jpg" 		alt="valla_full" 		id="valla_full"  	height=350 		width=500/>
+			<img src="../img/hots/full/varian.jpg" 		alt="varian_full" 		id="varian_full"  	height=350 		width=500/>
+			<img src="../img/hots/full/vikings.jpg" 	alt="vikings_full" 		id="vikings_full"  	height=350 		width=500/>
+			<img src="../img/hots/full/zarya.jpg" 		alt="zarya_full" 		id="zarya_full"  	height=350 		width=500/>
 		</div>
 	
 	</div>
