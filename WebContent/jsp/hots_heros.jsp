@@ -62,35 +62,35 @@
 		<div id="image_full">
 
 			<div id="auriel">
-				<img src="../img/hots/full/auriel.jpg" 		alt="auriel_full" 		id="auriel_full"  	height=350 		width=500/>
+				<img src="../img/hots/full/auriel.jpg" 		alt="auriel_full" 		id="auriel_full"/>
 				<p>
 				<label>Auriel</label> 
-				<img src="../img/hots/logo/logo_dia.png" alt="Diablo" height=50 	width=50/>
-				<img src="../img/hots/logo/logo_sup.png" alt="Support" height=50 width=50/>
+				<img src="../img/hots/logo/logo_dia.png" alt="Diablo" />
+				<img src="../img/hots/logo/logo_sup.png" alt="Support" />
 				</p>
 				<p>Description Auriel </p>
 				<p> Mon avis sur le personnage</p>
 			</div>
 			<div id="liming">
-				<img src="../img/hots/full/liming.jpg" 		alt="liming_full" 		id="liming_full"  	height=350 		width=500/>
+				<img src="../img/hots/full/liming.jpg" 		alt="liming_full" 		id="liming_full"/>
 				<p>
 				<label>Li-Ming</label> 
-				<img src="../img/hots/logo/logo_dia.png" alt="Diablo" height=50 	width=50/>
-				<img src="../img/hots/logo/logo_assa.png" alt="Assassin" height=50 width=50/>
+				<img src="../img/hots/logo/logo_dia.png" alt="Diablo" />
+				<img src="../img/hots/logo/logo_assa.png" alt="Assassin" />
 				</p>
 				<p>Description liming </p>
 				<p> Mon avis sur le personnage</p>
 			</div>
 			<div id="luisaile">
-				<img src="../img/hots/full/luisaile.jpg" 	alt="luisaile_full" 	id="luisaile_full"  height=350 		width=500/>
+				<img src="../img/hots/full/luisaile.jpg" 	alt="luisaile_full" 	id="luisaile_full"/>
 				<label>luisaile (Brightwing)</label>
 				<p>Description luisaille </p>
 				<p> Mon avis sur le personnage</p>
 			</div>
 			<div id="malfurion">
-				<img src="../img/hots/full/malfurion.jpg" 		alt="malfurion_full" 		id="malfurion_full"  	height=350 		width=500/>
+				<img src="../img/hots/full/malfurion.jpg" 		alt="malfurion_full" 		id="malfurion_full"/>
 				<span>
-				<label>Malfurion</label> <img src="../img/hots/logo/logo_wc.png" alt="Diablo" height=50 	width=50/> <img src="../img/hots/logo/logo_sup.png" alt="Support" height=50 width=50/>
+				<label>Malfurion</label> <img src="../img/hots/logo/logo_wc.png" alt="Diablo" /> <img src="../img/hots/logo/logo_sup.png" alt="Support" />
 				</span>
 				<p>Description Malfurion </p>
 				<p> Mon avis sur le personnage</p>

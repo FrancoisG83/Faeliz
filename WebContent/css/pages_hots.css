@@ -129,7 +129,7 @@ h1 {
 	display:			inline-block;
 	border-width :		1px ;
 	border-style : 		double; 
-	border-color : 		yellow;
+	border-color : 		red;
 	height : 			780px;
 	width :				510px;
 	margin :			10px;	
@@ -138,19 +138,30 @@ h1 {
 
 #image_full div {
 	display :			none;
+	text-align:			center;
 }
 
-#image_full div span {
+#image_full div p {
 	height :			100px;
-	text-align : justify;
+	text-align:			justify;
 	border-width :		1px ;
 	border-style : 		double; 
 	border-color : 		yellow;
 }
+
 #image_full img{
-	height : 			350px;
-	width :				500px;
+	height : 			280px;
+	width :				400px;
 	border-width :		5px ;
 	border-style : 		double; 
+	border-color : 		rgb(155,0,255);
+}
+
+#image_full p img {
+	height : 			50px;
+	width :				50px;
+	float:				right;
+	border-width :		1px ;
+	border-style : 		solid; 
 	border-color : 		rgb(155,0,255);
 }
