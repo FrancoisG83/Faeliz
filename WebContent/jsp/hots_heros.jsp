@@ -36,7 +36,10 @@
 		
 		
 		<div id="heros_portraits">
+			<img src="../img/hots/portraits/artanis.png" 	alt="artanis_portrait" 		title="Artanis"		name="war_sc2" 	id="artanis" 	onclick="chk_heros(this)"/>
 			<img src="../img/hots/portraits/auriel.png" 	alt="auriel_portrait" 		title="Auriel"		name="sup_dia" 	id="auriel" 	onclick="chk_heros(this)"/>
+			<img src="../img/hots/portraits/dehaka.png" 	alt="dehaka_portrait" 		title="Dehaka"		name="war_sc2" 	id="dehaka" 	onclick="chk_heros(this)"/>
+			<img src="../img/hots/portraits/diablo.png" 	alt="diablo_portrait" 		title="Diablo"		name="war_dia" 	id="diablo" 	onclick="chk_heros(this)"/>
 			<img src="../img/hots/portraits/liming.png"		alt="liming_portrait" 		title="Li-Ming"		name="assa_dia" id="liming" 	onclick="chk_heros(this)"/>
 			<img src="../img/hots/portraits/luisaile.png" 	alt="luisaile_portrait" 	title="Luisaille"	name="sup_wc" 	id="luisaile" 	onclick="chk_heros(this)"/>
 			<img src="../img/hots/portraits/malfurion.png" 	alt="malfurion_portrait" 	title="Malfurion"	name="sup_wc"	id="malfurion" 	onclick="chk_heros(this)"/>
@@ -60,84 +63,164 @@
 
 			<div id="auriel">
 				<img src="../img/hots/full/auriel.jpg" 		alt="auriel_full" 		id="auriel_full"/>
-				<p>
+				<span>
 				<label>Auriel</label> 
 				<img src="../img/hots/logo/logo_dia.png" alt="Diablo" />
 				<img src="../img/hots/logo/logo_sup.png" alt="Support" />
-				</p>
+				</span>
 				<p>Description Auriel </p>
 				<p> Mon avis sur le personnage</p>
 			</div>
 			<div id="liming">
 				<img src="../img/hots/full/liming.jpg" 		alt="liming_full" 		id="liming_full"/>
-				<p>
+				<span>
 				<label>Li-Ming</label> 
 				<img src="../img/hots/logo/logo_dia.png" alt="Diablo" />
 				<img src="../img/hots/logo/logo_assa.png" alt="Assassin" />
-				</p>
+				</span>
 				<p>Description liming </p>
 				<p> Mon avis sur le personnage</p>
 			</div>
 			<div id="luisaile">
 				<img src="../img/hots/full/luisaile.jpg" 	alt="luisaile_full" 	id="luisaile_full"/>
-				<p>
+				<span>
 				<label>Luisaile (Brightwing)</label>
 				<img src="../img/hots/logo/logo_wc.png" alt="Warcraft" />
 				<img src="../img/hots/logo/logo_sup.png" alt="Support" />
-				</p>
+				</span>
 				<p>Description luisaille </p>
 				<p> Mon avis sur le personnage</p>
 			</div>
 			<div id="malfurion">
 				<img src="../img/hots/full/malfurion.jpg" 		alt="malfurion_full" 		id="malfurion_full"/>
-				<p>
+				<span>
 				<label>Malfurion</label>
 				<img src="../img/hots/logo/logo_wc.png" alt="Warcraft" />
 				<img src="../img/hots/logo/logo_sup.png" alt="Support" />
-				</p>
+				</span>
 				<p>Description Malfurion </p>
 				<p> Mon avis sur le personnage</p>
 			</div>
 			<div id="marteau">
 				<img src="../img/hots/full/marteau.jpg" 		alt="marteau_full" 		id="marteau_full"/>
-				<p>
-				<label>Sergent Marteau (Sgt Hammer)</label> 
+				<span>
+				<label>Sgt Marteau (Sgt Hammer)</label> 
 				<img src="../img/hots/logo/logo_sc2.png" alt="Starcraft" />
 				<img src="../img/hots/logo/logo_spe.png" alt="Specialiste" />
-				</p>
+				</span>
 				<p>Description Sergent Marteau </p>
 				<p> Mon avis sur le personnage</p>
 			</div>
 			<div id="muradin">
 				<img src="../img/hots/full/muradin.jpg" 		alt="muradin_full" 		id="muradin_full"/>
-				<p>
+				<span>
 				<label>Muradin</label>
 				<img src="../img/hots/logo/logo_wc.png" alt="Warcraft" />
 				<img src="../img/hots/logo/logo_war.png" alt="Guerrier" />
-				</p>
+				</span>
 				<p>Description Muradin </p>
 				<p> Mon avis sur le personnage</p>
 			</div>
 			<div id="sylvanas">
 				<img src="../img/hots/full/sylvanas.jpg" 		alt="sylvanas_full" 		id="sylvanas_full"/>
-				<p>
+				<span>
 				<label>Sylvanas</label>
 				<img src="../img/hots/logo/logo_wc.png" alt="Warcraft" />
 				<img src="../img/hots/logo/logo_spe.png" alt="Specialiste" />
-				</p>
+				</span>
 				<p>Description Sylvanas </p>
 				<p> Mon avis sur le personnage</p>
 			</div>
-
-<!-- 			<img src="../img/hots/full/tassadar.jpg" 	alt="tassadar_full" 	id="tassadar_full"  height=350 		width=500/> -->
-<!-- 			<img src="../img/hots/full/thrall.jpg" 		alt="thrall_full" 		id="thrall_full"  	height=350 		width=500/> -->
-<!-- 			<img src="../img/hots/full/tracer.jpg" 		alt="tracer_full" 		id="tracer_full" 	height=350 		width=500/> -->
-<!-- 			<img src="../img/hots/full/tyrael.jpg" 		alt="tyrael_full" 		id="tyrael_full" 	height=350 		width=500/> -->
-<!-- 			<img src="../img/hots/full/tyrande.jpg" 	alt="tyrande_full" 		id="tyrande_full"  	height=350 		width=500/> -->
-<!-- 			<img src="../img/hots/full/valla.jpg" 		alt="valla_full" 		id="valla_full"  	height=350 		width=500/> -->
-<!-- 			<img src="../img/hots/full/vikings.jpg" 	alt="vikings_full" 		id="vikings_full"  	height=350 		width=500/> -->
-<!-- 			<img src="../img/hots/full/zarya.jpg" 		alt="zarya_full" 		id="zarya_full"  	height=350 		width=500/> -->
-
+			<div id="vikings">
+				<img src="../img/hots/full/vikings.jpg" 		alt="vikings_full" 		id="vikings_full"/>
+				<span>
+				<label>Vikings perdus (Lost Vikings)</label>
+				<img src="../img/hots/logo/logo_autre.png" alt="Autre" />
+				<img src="../img/hots/logo/logo_spe.png" alt="Specialiste" />
+				</span>
+				<p>Description Vikings </p>
+				<p> Mon avis sur le personnage</p>
+			</div>
+			<div id="tassadar">
+				<img src="../img/hots/full/tassadar.jpg" 		alt="tassadar_full" 		id="tassadar_full"/>
+				<span>
+				<label>Tassadar</label>
+				<img src="../img/hots/logo/logo_sc2.png" alt="Starcraft" />
+				<img src="../img/hots/logo/logo_sup.png" alt="Support" />
+				</span>
+				<p>Description Tassadar </p>
+				<p> Mon avis sur le personnage</p>
+			</div>
+			<div id="thrall">
+				<img src="../img/hots/full/thrall.jpg" 		alt="thrall_full" 		id="thrall_full"/>
+				<span>
+				<label>Thrall</label>
+				<img src="../img/hots/logo/logo_wc.png" alt="Warcraft" />
+				<img src="../img/hots/logo/logo_assa.png" alt="Assassin" />
+				</span>
+				<p>Description Thrall </p>
+				<p> Mon avis sur le personnage</p>
+			</div>
+			<div id="tracer">
+				<img src="../img/hots/full/tracer.jpg" 		alt="tracer_full" 		id="tracer_full"/>
+				<span>
+				<label>Tracer</label>
+				<img src="../img/hots/logo/logo_ow.png" alt="Overwatch" />
+				<img src="../img/hots/logo/logo_assa.png" alt="Assassin" />
+				</span>
+				<p>Description Tracer </p>
+				<p> Mon avis sur le personnage</p>
+			</div>
+			<div id="tyrael">
+				<img src="../img/hots/full/tyrael.jpg" 		alt="tyrael_full" 		id="tyrael_full"/>
+				<span>
+				<label>Tyraël</label>
+				<img src="../img/hots/logo/logo_dia.png" alt="Diablo" />
+				<img src="../img/hots/logo/logo_war.png" alt="Guerrier" />
+				</span>
+				<p>Description Tyraël </p>
+				<p> Mon avis sur le personnage</p>
+			</div>
+			<div id="tyrande">
+				<img src="../img/hots/full/tyrande.jpg" 		alt="tyrande_full" 		id="tyrande_full"/>
+				<span>
+				<label>Tyrande</label>
+				<img src="../img/hots/logo/logo_wc.png" alt="Warcraft" />
+				<img src="../img/hots/logo/logo_sup.png" alt="Support" />
+				</span>
+				<p>Description Tyrande </p>
+				<p> Mon avis sur le personnage</p>
+			</div>
+			<div id="valla">
+				<img src="../img/hots/full/valla.jpg" 		alt="valla_full" 		id="valla_full"/>
+				<span>
+				<label>Valla</label>
+				<img src="../img/hots/logo/logo_dia.png" alt="Diablo" />
+				<img src="../img/hots/logo/logo_assa.png" alt="Assassin" />
+				</span>
+				<p>Description Valla </p>
+				<p> Mon avis sur le personnage</p>
+			</div>
+			<div id="zarya">
+				<img src="../img/hots/full/zarya.jpg" 		alt="zarya_full" 		id="zarya_full"/>
+				<span>
+				<label>Zarya</label>
+				<img src="../img/hots/logo/logo_ow.png" alt="Overwatch" />
+				<img src="../img/hots/logo/logo_war.png" alt="Guerrier" />
+				</span>
+				<p>Description Zarya </p>
+				<p> Mon avis sur le personnage</p>
+			</div>
+				<div id="varian">
+				<img src="../img/hots/full/varian.jpg" 		alt="varian_full" 		id="varian_full"/>
+				<span>
+				<label>Varian</label>
+				<img src="../img/hots/logo/logo_wc.png" alt="Warcraft" />
+				<img src="../img/hots/logo/logo_assa_war.png" alt="Guerrier/Assassin" />
+				</span>
+				<p>Description Varian </p>
+				<p> Mon avis sur le personnage</p>
+			</div>
 		</div>
 	
 	</div>
