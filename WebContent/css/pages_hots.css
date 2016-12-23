@@ -47,6 +47,7 @@
 
 body {
 	background-image: 	url(../img/hots/hots_bg.jpg);
+	background-position:center center;
 	color: 				white;
 	background-color: 	black;
 }

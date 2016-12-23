@@ -61,6 +61,16 @@
 	<div id="div_right">
 		<div id="image_full">
 
+			<div id="artanis">
+				<img src="../img/hots/full/artanis.jpg" 		alt="artanis_full" 		id="artanis_full"/>
+				<span>
+				<label>Artanis</label> 
+				<img src="../img/hots/logo/logo_sc2.png" alt="Starcraft" />
+				<img src="../img/hots/logo/logo_war.png" alt="Guerrier" />
+				</span>
+				<p>Description Artanis </p>
+				<p> Mon avis sur le personnage</p>
+			</div>
 			<div id="auriel">
 				<img src="../img/hots/full/auriel.jpg" 		alt="auriel_full" 		id="auriel_full"/>
 				<span>
@@ -69,6 +79,26 @@
 				<img src="../img/hots/logo/logo_sup.png" alt="Support" />
 				</span>
 				<p>Description Auriel </p>
+				<p> Mon avis sur le personnage</p>
+			</div>
+			<div id="dehaka">
+				<img src="../img/hots/full/dehaka.jpg" 		alt="dehaka_full" 		id="dehaka_full"/>
+				<span>
+				<label>Dehaka</label> 
+				<img src="../img/hots/logo/logo_sc2.png" alt="Starcraft" />
+				<img src="../img/hots/logo/logo_war.png" alt="Guerrier" />
+				</span>
+				<p>Description Dehaka </p>
+				<p> Mon avis sur le personnage</p>
+			</div>
+			<div id="diablo">
+				<img src="../img/hots/full/diablo.jpg" 		alt="diablo_full" 		id="diablo_full"/>
+				<span>
+				<label>Diablo</label> 
+				<img src="../img/hots/logo/logo_dia.png" alt="Diablo" />
+				<img src="../img/hots/logo/logo_war.png" alt="Guerrier" />
+				</span>
+				<p>Description Diablo </p>
 				<p> Mon avis sur le personnage</p>
 			</div>
 			<div id="liming">
