@@ -71,7 +71,7 @@ h1 {
 	border-width :		1px ;
 	border-style : 		simple; 
 	border-color : 		yellow;
-	height : 			800px;
+	height : 			750px;
 	width :				552px;
 	margin :			10px;
 }
@@ -98,11 +98,12 @@ h1 {
 
 #heros_portraits {
 	display : 			inline-block;
+	overflow :			auto;
 	border-width :		5px ;
 	border-style : 		double; 
 	border-color : 		rgb(155,0,255);
-	height : 			600px;
-	width :				540px;
+	height : 			550px;
+	width :				550px;
 	margin-top :		10px;
 	padding-top : 		10px;
 	background-color : 	rgb(47,0,77);
@@ -131,9 +132,9 @@ h1 {
 	border-width :		1px ;
 	border-style : 		double; 
 	border-color : 		red;
-	height : 			780px;
+	height : 			750px;
 	width :				510px;
-	margin :			10px;	
+	margin :			5px;	
 /* 	background-color : 	rgb(47,0,77); */
 }
 
@@ -144,7 +145,7 @@ h1 {
 
 #image_full div span {
 	display: 			inline-block;
-	height :			100px;
+	height :			55px;
 	width :				450px;
 	text-align:			center;
 /* 	border-width :		1px ; */
@@ -153,7 +154,7 @@ h1 {
 }
 
 #image_full div p {
-	height :			100px;
+	height :			180px;
 	text-align:			justify;
 	border-width :		1px ;
 	border-style : 		double; 
