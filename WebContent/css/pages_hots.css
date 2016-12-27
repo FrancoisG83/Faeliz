@@ -7,38 +7,42 @@
 
 
 #menu_hots {
-	margin: 50px;
-	margin-top: 100px;
-	font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
-	font-size:14px;
-	font-weight:bold;
-	height : 500px;
-	float : left; 
-	text-align:center;
-/* 	border: 1px solid yellow; */
-	position: static;
+	margin: 		50px;
+	margin-top: 	100px;
+	font: 			67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+	font-size:		14px;
+	font-weight:	bold;
+	height : 		500px;
+	float : 		left; 
+	text-align:		center;
+/* 	border: 		1px solid yellow; */
+	position: 		static;
+}
+
+#menu_hots img {
+	height :		200px;
 }
 
 #menu_hots ul {
-	list-style:none;
+	list-style:		none;
 }
 
 #menu_hots li, #menu_hots li a /* Éléments des listes */      
 { 	
-	background:#90F;
-    margin: 5px;
-    padding : 0px;
-    color : #fff; /* couleur du texte */
-    text-align:center;
-	text-decoration : none; /* on supprime le style par défaut des liens (la plupart du temps = souligné) */
-    height:30px;
-    width: 200px;   
-    -webkit-box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, .1);
-	-moz-box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, .1);
-	box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, .1);
-    -ms-transform: skewX(170deg); /* IE 9 */
-    -webkit-transform: skewX(170deg); /* Chrome, Safari, Opera */
-    transform: skewX(170deg);
+	background:			rgb(0,0,150);
+    margin: 			5px;
+    padding : 			0px;
+    color : 			#fff; /* couleur du texte */
+    text-align:			center;
+	text-decoration : 	none; /* on supprime le style par défaut des liens (la plupart du temps = souligné) */
+    height:				30px;
+    width: 				200px;   
+    -webkit-box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, .2);
+	-moz-box-shadow: 	inset 0px 16px 0px 0px rgba(255, 255, 255, .2);
+	box-shadow: 		inset 0px 16px 0px 0px rgba(255, 255, 255, .2);
+    -ms-transform: 		skewX(170deg); /* IE 9 */
+    -webkit-transform: 	skewX(170deg); /* Chrome, Safari, Opera */
+    transform: 			skewX(170deg);
 }
 
 /* ----------------------------------------------------------------------------- */
@@ -53,12 +57,12 @@ body {
 }
 
 h1 {
-	margin-left : auto;
-	margin-top: 10px;
-	font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
-	font-size:26px;
-	font-style: italic;
-	color: white;
+	margin-left : 		auto;
+	margin-top: 		10px;
+	font: 				67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+	font-size:			26px;
+	font-style: 		italic;
+	color: 				white;
 }
 
 
@@ -85,33 +89,37 @@ h1 {
 
 
 #heros_form fieldset {
-	border-width :		5px ;
-	border-style : 		double; 
-	border-color : 		rgb(155,0,255);
+	border-left :		5px double rgb(0,0,150);
+	border-top :		5px double rgb(0,0,150);
+	border-right :		5px double rgb(50,0,100);
+	border-bottom :		5px double rgb(50,0,100);
 	height : 			40px;
 	margin : 			5px;
 	text-align : 		center;
 	padding-top : 		2px;
-	background-color : 	rgb(47,0,77);
+	/*background-color : 	rgb(47,0,77);*/
 	font-size: 			18px;	
 }
 
 #heros_portraits {
 	display : 			inline-block;
 	overflow :			auto;
-	border-width :		5px ;
-	border-style : 		double; 
-	border-color : 		rgb(155,0,255);
+	border-left :		5px double rgb(0,0,150);
+	border-top :		5px double rgb(0,0,150);
+	border-right :		5px double rgb(50,0,100);
+	border-bottom :		5px double rgb(50,0,100);
 	height : 			550px;
 	width :				550px;
 	margin-top :		10px;
 	padding-top : 		10px;
-	background-color : 	rgb(47,0,77);
+	/*background-color : 	rgb(47,0,77);*/
 	font-size: 			20px;	
 	text-align:			center;
 }
 
 #heros_portraits img {
+	height :			75px;
+	width:				75px;
 	opacity :			0.7;
 	margin :			2px;
 	border-width :		2px ;
@@ -129,9 +137,9 @@ h1 {
 
 #div_right {
 	display:			inline-block;
-	border-width :		1px ;
-	border-style : 		double; 
-	border-color : 		red;
+/* 	border-width :		1px ; */
+/* 	border-style : 		double;  */
+/* 	border-color : 		red; */
 	height : 			750px;
 	width :				510px;
 	margin :			5px;	
@@ -164,9 +172,10 @@ h1 {
 #image_full img{
 	height : 			280px;
 	width :				400px;
-	border-width :		5px ;
-	border-style : 		double; 
-	border-color : 		rgb(155,0,255);
+	border-left :		5px double rgb(0,0,150);
+	border-top :		5px double rgb(0,0,150);
+	border-right :		5px double rgb(50,0,100);
+	border-bottom :		5px double rgb(50,0,100);
 }
 
 #image_full span img {
@@ -177,11 +186,11 @@ h1 {
 }
 
 #image_full label {
-	font-family: Verdana, Helvetica, sans-serif;
-	font-size:18px;
-	font-weight:bold;
-	text-decoration: underline;
-	margin-top: 10px;
-	float: left;
+	font-family: 		Verdana, Helvetica, sans-serif;
+	font-size:			18px;
+	font-weight:		bold;
+	text-decoration: 	underline;
+	margin-top:			10px;
+	float: 				left;
 	
 }

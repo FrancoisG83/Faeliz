@@ -41,17 +41,23 @@
 			<img src="../img/hots/portraits/anubarak.png" 	alt="anubarak_portrait" 	title="Anubarak"	name="war_wc"	id="anubarak" 	onclick="chk_heros(this)"/>
 			<img src="../img/hots/portraits/artanis.png" 	alt="artanis_portrait" 		title="Artanis"		name="war_sc2" 	id="artanis" 	onclick="chk_heros(this)"/>
 			<img src="../img/hots/portraits/arthas.png" 	alt="arthas_portrait" 		title="Arthas"		name="war_wc"	id="arthas" 	onclick="chk_heros(this)"/>
-			<img src="../img/hots/portraits/asmodan.png" 	alt="asmodan_portrait" 		title="Asmodan"		name="war_dia" 	id="asmodan" 	onclick="chk_heros(this)"/>
+			<img src="../img/hots/portraits/asmodan.png" 	alt="asmodan_portrait" 		title="Asmodan"		name="spe_dia" 	id="asmodan" 	onclick="chk_heros(this)"/>
 			<img src="../img/hots/portraits/auriel.png" 	alt="auriel_portrait" 		title="Auriel"		name="sup_dia" 	id="auriel" 	onclick="chk_heros(this)"/>
+			<img src="../img/hots/portraits/stitches.png" 	alt="stitches_portrait" 	title="Stitches"	name="war_wc"	id="stitches" 	onclick="chk_heros(this)"/>
 			<img src="../img/hots/portraits/boucher.png" 	alt="boucher_portrait" 		title="Boucher"		name="assa_dia"	id="boucher" 	onclick="chk_heros(this)"/>
-			<img src="../img/hots/portraits/bourbie.png" 	alt="bourbie_portrait" 		title="bourbie"		name="sup_wc" 	id="bourbie" 	onclick="chk_heros(this)"/>
-			<img src="../img/hots/portraits/chen.png" 		alt="chen_portrait" 		title="chen"		name="war_wc"	id="chen" 		onclick="chk_heros(this)"/>
+			<img src="../img/hots/portraits/bourbie.png" 	alt="bourbie_portrait" 		title="bourbie"		name="spe_wc" 	id="bourbie" 	onclick="chk_heros(this)"/>
+			<img src="../img/hots/portraits/chen.png" 		alt="chen_portrait" 		title="Chen"		name="war_wc"	id="chen" 		onclick="chk_heros(this)"/>
 			<img src="../img/hots/portraits/dehaka.png" 	alt="dehaka_portrait" 		title="Dehaka"		name="war_sc2" 	id="dehaka" 	onclick="chk_heros(this)"/>
 			<img src="../img/hots/portraits/diablo.png" 	alt="diablo_portrait" 		title="Diablo"		name="war_dia" 	id="diablo" 	onclick="chk_heros(this)"/>
+			<img src="../img/hots/portraits/etc.png" 		alt="etc_portrait" 			title="Etc"			name="war_wc"	id="etc" 		onclick="chk_heros(this)"/>
 			<img src="../img/hots/portraits/falstad.png" 	alt="falstad_portrait" 		title="Falstad"		name="assa_wc" 	id="falstad" 	onclick="chk_heros(this)"/>
+			<img src="../img/hots/portraits/gazlowe.png"	alt="gazlowe_portrait" 		title="Gazlowe"		name="spe_wc" 	id="gazlowe" 	onclick="chk_heros(this)"/>
+			<img src="../img/hots/portraits/grisetete.png" 	alt="grisetete_portrait" 	title="Grisetete"	name="assa_wc" 	id="grisetete" 	onclick="chk_heros(this)"/>
+			<img src="../img/hots/portraits/guldan.png" 	alt="guldan_portrait" 		title="Guldan"		name="assa_wc" 	id="guldan" 	onclick="chk_heros(this)"/>
 			<img src="../img/hots/portraits/illidan.png" 	alt="illidan_portrait" 		title="Illidan"		name="assa_wc" 	id="illidan" 	onclick="chk_heros(this)"/>
 			<img src="../img/hots/portraits/jaina.png" 		alt="jaina_portrait" 		title="Jaina"		name="assa_wc" 	id="jaina" 		onclick="chk_heros(this)"/>
 			<img src="../img/hots/portraits/johanna.png" 	alt="johanna_portrait" 		title="Johanna"		name="war_dia" 	id="johanna" 	onclick="chk_heros(this)"/>
+			<img src="../img/hots/portraits/kaelthas.png" 	alt="kaelthas_portrait" 	title="Kaelthas"	name="assa_wc" 	id="kaelthas" 	onclick="chk_heros(this)"/>
 			<img src="../img/hots/portraits/kerrigan.png" 	alt="kerrigan_portrait" 	title="Kerrigan"	name="assa_sc2"	id="kerrigan" 	onclick="chk_heros(this)"/>
 			<img src="../img/hots/portraits/lili.png" 		alt="lili_portrait" 		title="Lili"		name="sup_wc" 	id="lili" 		onclick="chk_heros(this)"/>
 			<img src="../img/hots/portraits/liming.png"		alt="liming_portrait" 		title="Li-Ming"		name="assa_dia" id="liming" 	onclick="chk_heros(this)"/>
@@ -61,7 +67,6 @@
 			<img src="../img/hots/portraits/marteau.png" 	alt="marteau_portrait" 		title="Sgt Marteau"	name="spe_sc2" 	id="marteau" 	onclick="chk_heros(this)"/>
 			<img src="../img/hots/portraits/nova.png" 		alt="nova_portrait" 		title="Nova"		name="assa_sc2"	id="nova" 		onclick="chk_heros(this)"/>
 			<img src="../img/hots/portraits/rehgar.png"		alt="rehgar_portrait" 		title="Rehgar"		name="sup_wc" 	id="rehgar" 	onclick="chk_heros(this)"/>
-			<img src="../img/hots/portraits/stitches.png" 	alt="stitches_portrait" 	title="stitches"	name="war_wc"	id="stitches" 	onclick="chk_heros(this)"/>
 			<img src="../img/hots/portraits/sylvanas.png"	alt="sylvanas_portrait" 	title="Sylvanas"	name="spe_wc" 	id="sylvanas" 	onclick="chk_heros(this)"/>
 			<img src="../img/hots/portraits/tassadar.png" 	alt="tassadar_portrait" 	title="Tassadar"	name="sup_sc2"	id="tassadar" 	onclick="chk_heros(this)"/>
 			<img src="../img/hots/portraits/thrall.png" 	alt="thrall_portrait" 		title="Thrall"		name="assa_wc" 	id="thrall" 	onclick="chk_heros(this)"/>
@@ -150,6 +155,16 @@
 				<p>Description Auriel </p>
 				<p> Mon avis sur le personnage</p>
 			</div>
+			<div id="stitches">
+				<img src="../img/hots/full/stitches.jpg" 		alt="stitches_full" 		id="stitches_full"/>
+				<span>
+				<label>Balafré (Stitches)</label>
+				<img src="../img/hots/logo/logo_wc.png" alt="Warcraft" />
+				<img src="../img/hots/logo/logo_war.png" alt="Guerrier" />
+				</span>
+				<p>Description Balafré </p>
+				<p> Mon avis sur le personnage</p>
+			</div>
 			<div id="boucher">
 				<img src="../img/hots/full/boucher.jpg" 		alt="boucher_full" 		id="boucher_full"/>
 				<span>
@@ -165,9 +180,19 @@
 				<span>
 				<label>Bourbie (Murky)</label>
 				<img src="../img/hots/logo/logo_wc.png" alt="Warcraft" />
-				<img src="../img/hots/logo/logo_sup.png" alt="Support" />
+				<img src="../img/hots/logo/logo_spe.png" alt="Specialiste" />
 				</span>
 				<p>Description Bourbie </p>
+				<p> Mon avis sur le personnage</p>
+			</div>
+			<div id="chen">
+				<img src="../img/hots/full/chen.jpg" 		alt="chen_full" 		id="chen_full"/>
+				<span>
+				<label>Chen</label>
+				<img src="../img/hots/logo/logo_wc.png" alt="Warcraft" />
+				<img src="../img/hots/logo/logo_war.png" alt="Guerrier" />
+				</span>
+				<p>Description Chen </p>
 				<p> Mon avis sur le personnage</p>
 			</div>
 			<div id="dehaka">
@@ -190,6 +215,16 @@
 				<p>Description Diablo </p>
 				<p> Mon avis sur le personnage</p>
 			</div>
+			<div id="etc">
+				<img src="../img/hots/full/etc.jpg" 		alt="etc_full" 		id="etc_full"/>
+				<span>
+				<label>E.T.C.</label>
+				<img src="../img/hots/logo/logo_wc.png" alt="Warcraft" />
+				<img src="../img/hots/logo/logo_war.png" alt="Guerrier" />
+				</span>
+				<p>Description E.T.C. </p>
+				<p> Mon avis sur le personnage</p>
+			</div>
 			<div id="falstad">
 				<img src="../img/hots/full/falstad.jpg" 		alt="falstad_full" 		id="falstad_full"/>
 				<span>
@@ -198,6 +233,36 @@
 				<img src="../img/hots/logo/logo_assa.png" alt="Assassin" />
 				</span>
 				<p>Description Falstad </p>
+				<p> Mon avis sur le personnage</p>
+			</div>
+			<div id="gazlowe">
+				<img src="../img/hots/full/gazlowe.jpg" 		alt="gazlowe_full" 		id="gazlowe_full"/>
+				<span>
+				<label>Gazleu (Gazlowe)</label>
+				<img src="../img/hots/logo/logo_wc.png" alt="Warcraft" />
+				<img src="../img/hots/logo/logo_spe.png" alt="Specialiste" />
+				</span>
+				<p>Description Gazleu</p>
+				<p> Mon avis sur le personnage</p>
+			</div>
+			<div id="grisetete">
+				<img src="../img/hots/full/grisetete.jpg" 		alt="grisetete_full" 		id="grisetete_full"/>
+				<span>
+				<label>Grisetête (Greymane)</label>
+				<img src="../img/hots/logo/logo_wc.png" alt="Warcraft" />
+				<img src="../img/hots/logo/logo_assa.png" alt="Assassin" />
+				</span>
+				<p>Description Grisetête </p>
+				<p> Mon avis sur le personnage</p>
+			</div>
+			<div id="guldan">
+				<img src="../img/hots/full/guldan.jpg" 		alt="guldan_full" 		id="guldan_full"/>
+				<span>
+				<label>Gul'dan</label>
+				<img src="../img/hots/logo/logo_wc.png" alt="Warcraft" />
+				<img src="../img/hots/logo/logo_assa.png" alt="Assassin" />
+				</span>
+				<p>Description Gul'dan</p>
 				<p> Mon avis sur le personnage</p>
 			</div>
 			<div id="illidan">
@@ -228,6 +293,16 @@
 				<img src="../img/hots/logo/logo_war.png" alt="Guerrier" />
 				</span>
 				<p>Description Johanna </p>
+				<p> Mon avis sur le personnage</p>
+			</div>
+			<div id="kaelthas">
+				<img src="../img/hots/full/kaelthas.jpg" 		alt="kaelthas_full" 		id="kaelthas_full"/>
+				<span>
+				<label>Kael'Thas</label>
+				<img src="../img/hots/logo/logo_wc.png" alt="Warcraft" />
+				<img src="../img/hots/logo/logo_assa.png" alt="Assassin" />
+				</span>
+				<p>Description Kael'Thas</p>
 				<p> Mon avis sur le personnage</p>
 			</div>
 			<div id="kerrigan">
@@ -298,6 +373,16 @@
 				<img src="../img/hots/logo/logo_war.png" alt="Guerrier" />
 				</span>
 				<p>Description Muradin </p>
+				<p> Mon avis sur le personnage</p>
+			</div>
+				<div id="nova">
+				<img src="../img/hots/full/nova.jpg" 		alt="nova_full" 		id="nova_full"/>
+				<span>
+				<label>Nova</label>
+				<img src="../img/hots/logo/logo_wc.png" alt="Warcraft" />
+				<img src="../img/hots/logo/logo_assa.png" alt="Assassin" />
+				</span>
+				<p>Description Nova </p>
 				<p> Mon avis sur le personnage</p>
 			</div>
 			<div id="rehgar">
@@ -404,7 +489,7 @@
 				<img src="../img/hots/full/vikings.jpg" 		alt="vikings_full" 		id="vikings_full"/>
 				<span>
 				<label>Vikings perdus (Lost Vikings)</label>
-				<img src="../img/hots/logo/logo_autre.png" alt="Autre" />
+				<img src="../img/hots/logo/logo_bnet.png" alt="Autre" />
 				<img src="../img/hots/logo/logo_spe.png" alt="Specialiste" />
 				</span>
 				<p>Description Vikings </p>
@@ -421,6 +506,7 @@
 				<p> Mon avis sur le personnage</p>
 			</div>
 		</div>
+	</div>
 </div>	
 	
 	<script type="text/javascript" src="../js/hotsHeros.js"></script>
