@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="../css/pages_hots.css"/>
+<link rel="stylesheet" href="general/css/pages_general.css"/>
 <title>Faeliz</title>
 </head>
 <body>

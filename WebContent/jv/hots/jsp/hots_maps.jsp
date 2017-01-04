@@ -8,7 +8,7 @@
 	</head>
 	
 	<body>
-		<header><%@ include file="../WEB-INF/menu.html" %></header>
+		<header><%@ include file="../../../WEB-INF/menu.html" %></header>
 		<%@ include file="../html/menu_hots.html" %>
 	
 		<h1>Page des maps de hots</h1>

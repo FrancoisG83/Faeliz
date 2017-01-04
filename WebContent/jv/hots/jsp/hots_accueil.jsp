@@ -9,7 +9,7 @@
 	</head>
 	
 	<body>
-		<header><%@ include file="../WEB-INF/menu.html" %></header>
+		<header><%@ include file="../../../WEB-INF/menu.html" %></header>
 		<%@ include file="../html/menu_hots.html" %>
 		<h1>Voici la page d'accueil de Heroes Of The Storm</h1>
 	</body>

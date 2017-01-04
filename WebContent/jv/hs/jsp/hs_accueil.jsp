@@ -9,7 +9,7 @@
 	</head>
 	
 	<body>
-		<header><%@ include file="../WEB-INF/menu.html" %></header>
+		<header><%@ include file="../../../WEB-INF/menu.html" %></header>
 		<p>Voici la page d'accueil de Hearthstone</p>
 	
 	</body>
