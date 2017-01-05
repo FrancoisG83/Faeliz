@@ -1,0 +1,178 @@
+@CHARSET "ISO-8859-1";
+
+/* ----------------------------------------------------------------------------- */
+/* ------------------ MENU Petits Jeux-------------------------------------------*/
+/* ----------------------------------------------------------------------------- */
+
+
+#menu_pj {
+	margin: 		50px;
+	margin-top: 	100px;
+	font: 			67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+	font-size:		14px;
+	font-weight:	bold;
+	height : 		500px;
+	float : 		left; 
+	text-align:		center;
+	position: 		static;
+}
+
+#menu_pj img {
+	height :		200px;
+}
+
+#menu_pj ul {
+	list-style:		none;
+}
+
+#menu_pj li, #menu_pj li a /* Éléments des listes */      
+{ 	
+	background:			rgb(0,0,150);
+    margin: 			5px;
+    padding : 			0px;
+    color : 			#fff; /* couleur du texte */
+    text-align:			center;
+	text-decoration : 	none; /* on supprime le style par défaut des liens (la plupart du temps = souligné) */
+    height:				30px;
+    width: 				200px;   
+    -webkit-box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, .2);
+	-moz-box-shadow: 	inset 0px 16px 0px 0px rgba(255, 255, 255, .2);
+	box-shadow: 		inset 0px 16px 0px 0px rgba(255, 255, 255, .2);
+    -ms-transform: 		skewX(170deg); /* IE 9 */
+    -webkit-transform: 	skewX(170deg); /* Chrome, Safari, Opera */
+    transform: 			skewX(170deg);
+}
+
+
+/* ----------------------------------------------------------------------------- */
+/* ------------------ Page Tower of Faeliz---------------------------------------*/
+/* ----------------------------------------------------------------------------- */
+body {
+	background-color: 	black;
+	color			:	white
+}
+
+h1 {
+	color:		purple;
+	font-size: 	24;
+	font-style: italic;
+}
+
+/* ----- Div General ----- */
+#div_general {
+	height:		770px;
+	width:		1416px;
+	border:		1px solid purple;
+	display:	flex;	
+}
+
+/* ----- Div Left ----- */
+#div_left {
+	height:		764px;
+	width:		306px;
+	border:		1px solid red;
+	margin:		2px;
+}
+
+#fiche_pj {
+	height:		250px;
+	width:		300px;
+	border:		1px solid white;
+	margin:		2px;	
+}
+
+#equip {
+	height:		250px;
+	width:		300px;	
+	border:		1px solid white;
+	margin:		2px;
+}
+
+#inventaire {
+	height:		250px;
+	width:		300px;
+	border:		1px solid white;
+	margin:		2px;	
+}
+
+/* ----- Div Center ----- */
+#div_center {
+	height:		764px;
+	width:		706px;
+	border:		1px solid red;
+	margin:		2px;
+}
+
+#terrain {
+	height:		600px;
+	width:		700px;
+	border:		1px solid white;
+	margin:		2px;
+}
+
+#terrain table {
+	border-collapse: collapse;
+	margin: 10px;
+}
+
+#terrain img {
+	height:		64px;
+	width:		64px;
+	border:		1px solid black;
+	margin:		0px;
+}
+
+#terrain img:hover {
+	border:		1px solid white;
+}
+
+#actions {
+	display: 	flex;
+	height:		150px;
+	width:		700px;
+	border:		1px solid blue;
+	margin:		2px;
+}
+
+#action_used {
+	height:		140px;
+	width:		345px;
+	border:		1px solid white;
+	margin:		2px;
+}
+
+#skill_used {
+	height:		140px;
+	width:		345px;
+	border:		1px solid white;
+	margin:		2px;
+}
+
+/* ----- Div Right ----- */
+#div_right {
+	height:		764px;
+	width:		386px;
+	border:		1px solid red;
+	margin:		2px;
+}
+
+#log_combat {
+	height:		350px;
+	width:		380px;
+	border:		1px solid white;
+	margin:		2px;
+}
+
+#fiche_pnj {
+	height:		200px;
+	width:		380px;
+	border:		1px solid white;
+	margin:		2px;
+}
+
+#skill_list {
+	height:		200px;
+	width:		380px;
+	border:		1px solid white;
+	margin:		2px;
+}
