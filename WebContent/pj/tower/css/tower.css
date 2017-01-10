@@ -14,7 +14,7 @@
 	height : 		500px;
 	float : 		left; 
 	text-align:		center;
-	position: 		static;
+	/*position: 		static;*/
 }
 
 #menu_pj img {
@@ -111,18 +111,27 @@ h1 {
 }
 
 #terrain table {
-	border-collapse: collapse;
-	margin: 10px;
+	border-collapse: 	collapse;
+	margin: 			10px;
+
 }
 
-#terrain img {
-	height:		64px;
-	width:		64px;
+#terrain td {
+	height:		50px;
+	width:		50px;
 	border:		1px solid black;
-	margin:		0px;
+	background-image: url(../img/sol1.png);
+	background-size: cover;
 }
 
-#terrain img:hover {
+
+#terrain img.heros {
+	height:		49px;
+	width:		49px;
+	border:		1px solid grey;
+}
+
+#terrain .heros:hover {
 	border:		1px solid white;
 }
 
