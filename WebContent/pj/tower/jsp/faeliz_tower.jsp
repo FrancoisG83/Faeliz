@@ -71,81 +71,87 @@
 						<td id="39"></td>
 					</tr>
 					<tr class="ligne4">
-						<td id="40"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="41"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="42"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="43"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="44"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="45"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="46"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="47"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="48"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="49"><img src="../img/sol1.png" class="sol"/></td>
+						<td id="40"></td>
+						<td id="41"></td>
+						<td id="42"></td>
+						<td id="43"></td>
+						<td id="44"></td>
+						<td id="45"></td>
+						<td id="46"></td>
+						<td id="47"></td>
+						<td id="48"></td>
+						<td id="49"></td>
 					</tr>
 					<tr class="ligne5">
-						<td id="50"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="51"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="52"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="53"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="54"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="55"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="56"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="57"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="58"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="59"><img src="../img/sol1.png" class="sol"/></td>
+						<td id="50"></td>
+						<td id="51"></td>
+						<td id="52"></td>
+						<td id="53"></td>
+						<td id="54"></td>
+						<td id="55"></td>
+						<td id="56"></td>
+						<td id="57"></td>
+						<td id="58"></td>
+						<td id="59"></td>
 					</tr>
 					<tr class="ligne6">
-						<td id="60"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="61"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="62"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="63"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="64"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="65"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="66"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="67"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="68"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="69"><img src="../img/sol1.png" class="sol"/></td>
+						<td id="60"></td>
+						<td id="61"></td>
+						<td id="62"></td>
+						<td id="63"></td>
+						<td id="64"></td>
+						<td id="65"></td>
+						<td id="66"></td>
+						<td id="67"></td>
+						<td id="68"></td>
+						<td id="69"></td>
 					</tr>
 					<tr class="ligne7">
-						<td id="70"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="71"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="72"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="73"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="74"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="75"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="76"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="77"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="78"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="79"><img src="../img/sol1.png" class="sol"/></td>
+						<td id="70"></td>
+						<td id="71"></td>
+						<td id="72"></td>
+						<td id="73"></td>
+						<td id="74"></td>
+						<td id="75"></td>
+						<td id="76"></td>
+						<td id="77"></td>
+						<td id="78"></td>
+						<td id="79"></td>
 					</tr>
 					<tr class="ligne8">
-						<td id="80"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="81"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="82"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="83"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="84"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="85"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="86"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="87"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="88"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="89"><img src="../img/sol1.png" class="sol"/></td>
+						<td id="80"></td>
+						<td id="81"></td>
+						<td id="82"></td>
+						<td id="83"></td>
+						<td id="84"></td>
+						<td id="85"></td>
+						<td id="86"></td>
+						<td id="87"></td>
+						<td id="88"></td>
+						<td id="89"></td>
 					</tr>
 					<tr class="ligne9">
-						<td id="90"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="91"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="92"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="93"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="94"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="95"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="96"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="97"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="98"><img src="../img/sol1.png" class="sol"/></td>
-						<td id="99"><img src="../img/sol1.png" class="sol"/></td>
+						<td id="90"></td>
+						<td id="91"></td>
+						<td id="92"></td>
+						<td id="93"></td>
+						<td id="94"></td>
+						<td id="95"></td>
+						<td id="96"></td>
+						<td id="97"></td>
+						<td id="98"></td>
+						<td id="99"></td>
 					</tr>
 				</table>
 			</div>
 			<div id="actions">
-				<div id="action_used"></div>
+				<div id="action_used">
+					<img src="../img/sol1.png" alt="deplt"/>
+					<img src="../img/sol1.png" alt="popo1"/>
+					<img src="../img/sol1.png" alt="popo2"/>
+					<img src="../img/sol1.png" alt="obj1"/>
+					<img src="../img/sol1.png" alt="obj2"/>
+				</div>
 				<div id="skill_used"></div>
 			</div>
 		</div>
@@ -155,6 +161,10 @@
 			<div id="skill_list"></div>
 		</div>
 	</div>
+	<div id="datas">
+			<p id="pos_heros"></p>	
+	</div>
+
 <script src="../js/tower.js"></script>
 </body>
 </html>

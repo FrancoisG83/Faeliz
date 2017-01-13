@@ -34,7 +34,7 @@
     text-align:			center;
 	text-decoration : 	none; /* on supprime le style par défaut des liens (la plupart du temps = souligné) */
     height:				30px;
-    width: 				200px;   
+    width: 				150px;   
     -webkit-box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, .2);
 	-moz-box-shadow: 	inset 0px 16px 0px 0px rgba(255, 255, 255, .2);
 	box-shadow: 		inset 0px 16px 0px 0px rgba(255, 255, 255, .2);
@@ -59,9 +59,13 @@ h1 {
 }
 
 /* ----- Div General ----- */
+#datas {
+	visibility: hidden;		
+}
+
 #div_general {
 	height:		770px;
-	width:		1416px;
+	width:		1316px;
 	border:		1px solid purple;
 	display:	flex;	
 }
@@ -98,14 +102,14 @@ h1 {
 /* ----- Div Center ----- */
 #div_center {
 	height:		764px;
-	width:		706px;
+	width:		606px;
 	border:		1px solid red;
 	margin:		2px;
 }
 
 #terrain {
 	height:		600px;
-	width:		700px;
+	width:		600px;
 	border:		1px solid white;
 	margin:		2px;
 }
@@ -138,21 +142,32 @@ h1 {
 #actions {
 	display: 	flex;
 	height:		150px;
-	width:		700px;
+	width:		600px;
 	border:		1px solid blue;
 	margin:		2px;
 }
 
 #action_used {
 	height:		140px;
-	width:		345px;
+	width:		295px;
 	border:		1px solid white;
 	margin:		2px;
 }
 
+#action_used img {
+	height:		50px;
+	width:		50px;	
+	border:		1px solid white;
+	margin:		2px;
+}
+
+#action_used img:hover {
+	border:		1px solid red;
+}
+
 #skill_used {
 	height:		140px;
-	width:		345px;
+	width:		295px;
 	border:		1px solid white;
 	margin:		2px;
 }
