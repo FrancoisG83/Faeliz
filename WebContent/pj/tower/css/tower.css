@@ -59,10 +59,6 @@ h1 {
 }
 
 /* ----- Div General ----- */
-#datas {
-	visibility: hidden;		
-}
-
 #div_general {
 	height:		770px;
 	width:		1316px;
@@ -83,6 +79,11 @@ h1 {
 	width:		300px;
 	border:		1px solid white;
 	margin:		2px;	
+}
+
+
+#fiche_pj span {
+	display: block;	
 }
 
 #equip {
@@ -116,7 +117,9 @@ h1 {
 
 #terrain table {
 	border-collapse: 	collapse;
-	margin: 			10px;
+	margin-top: 		10px;
+	margin-left :		auto;
+	margin-right:		auto;
 
 }
 
@@ -124,7 +127,7 @@ h1 {
 	height:		50px;
 	width:		50px;
 	border:		1px solid black;
-	background-image: url(../img/sol1.png);
+	background-image: url(../img/sol_2.png);
 	background-size: cover;
 }
 
@@ -132,33 +135,42 @@ h1 {
 #terrain img.heros {
 	height:		49px;
 	width:		49px;
-	border:		1px solid grey;
+	/*border:		1px solid grey;*/
 }
 
-#terrain .heros:hover {
-	border:		1px solid white;
+#terrain img.pnj {
+	height:		49px;
+	width:		49px;
+/* 	border:		1px solid grey; */
 }
 
-#actions {
+/* #terrain .heros:hover { */
+/* 	border:		1px solid white; */
+/* } */
+
+#div_actions {
 	display: 	flex;
 	height:		150px;
 	width:		600px;
 	border:		1px solid blue;
 	margin:		2px;
+	text-align: center;
+	color:		white;
 }
 
 #action_used {
 	height:		140px;
 	width:		295px;
 	border:		1px solid white;
-	margin:		2px;
+	margin:		1px;
 }
 
 #action_used img {
 	height:		50px;
 	width:		50px;	
-	border:		1px solid white;
-	margin:		2px;
+ 	border:		1px solid black; 
+	margin-left:auto;
+	margin-top:	10px;
 }
 
 #action_used img:hover {
@@ -169,7 +181,18 @@ h1 {
 	height:		140px;
 	width:		295px;
 	border:		1px solid white;
-	margin:		2px;
+	margin:		1px;
+}
+
+#skill_used img {
+	height:		50px;
+	width:		50px;	
+	border:		1px solid white;
+	margin-top:	20px;
+}
+
+#skill_used img:hover {
+	border:		1px solid red;
 }
 
 /* ----- Div Right ----- */
@@ -199,4 +222,14 @@ h1 {
 	width:		380px;
 	border:		1px solid white;
 	margin:		2px;
+}
+
+/*Div_datas n'apparaissant pas à l'ecran */
+#div_datas {
+/* 	visibility: hidden;		 */
+	height:		200px;
+	width:		380px;
+	border:		1px solid white;
+	margin:		2px;
+	color	:	white;
 }
