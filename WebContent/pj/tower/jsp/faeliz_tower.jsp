@@ -18,12 +18,19 @@
 			<div id="fiche_pj">
 				<label>Points de Vie	</label>	<span id="pv_heros">10</span>
 				<label>Points de Magie	</label>	<span id="pm_heros">10</span>
-				<label>Points d'Action	</label>	<span id="pa_heros">3</span>
+				<label>Points d'Attaque	</label>	<span id="atk_heros">1</span>
+				<label>Points de Défense</label>	<span id="def_heros">0</span>
+				<label>Points d'Action	</label>	<span id="pa_heros">10</span>
 				
 			</div>
-			<div id="equip"></div>
+			<div id="equip">
+				<img src="../img/potionGreen.png" 	alt="popo1" 	id="pop1" 	onclick="clic_action(this)"/>
+				<img src="../img/potionRed.png" 	alt="popo2" 	id="pop2" 	onclick="clic_action(this)"/>
+				<img src="../img/gemBlue.png" 		alt="obj1"  	id="obj1" 	onclick="clic_action(this)"/>
+				<img src="../img/gemGreen.png" 		alt="obj2"  	id="obj2" 	onclick="clic_action(this)"/></div>
 			<div id="inventaire"></div>
 		</div>
+		
 		<div id="div_center">
 			<div id="terrain">
 				<table>
@@ -37,7 +44,7 @@
 						<td id="06" onclick="clic_case(this)"></td>
 						<td id="07" onclick="clic_case(this)"></td>
 						<td id="08" onclick="clic_case(this)"></td>
-						<td id="09" onclick="clic_case(this)"><img src="../img/rat.png" id="monstre1" class="pnj" onclick="clic_perso(this);" /></td>
+						<td id="09" onclick="clic_case(this)"><img src="../img/rat.png" alt="Rat1" title="Rat1" id="rat1" class="pnj" onclick="clic_perso(this);" /></td>
 					</tr>
 					<tr class="ligne1">
 						<td id="10" onclick="clic_case(this)"></td>
@@ -54,7 +61,7 @@
 					<tr class="ligne2">
 						<td id="20" onclick="clic_case(this)"></td>
 						<td id="21" onclick="clic_case(this)"></td>
-						<td id="22" onclick="clic_case(this)"><img src="../img/chevalier.png" id="heros" class="heros" onclick="clic_perso(this);" /></td>
+						<td id="22" onclick="clic_case(this)"><img src="../img/chevalier.png" alt="Heros" title="Heros" id="heros" class="heros" onclick="clic_perso(this);" /></td>
 						<td id="23" onclick="clic_case(this)"></td>
 						<td id="24" onclick="clic_case(this)"></td>
 						<td id="25" onclick="clic_case(this)"></td>
@@ -105,7 +112,7 @@
 						<td id="62" onclick="clic_case(this)"></td>
 						<td id="63" onclick="clic_case(this)"></td>
 						<td id="64" onclick="clic_case(this)"></td>
-						<td id="65" onclick="clic_case(this)"><img src="../img/rat.png" id="monstre2" class="pnj" onclick="clic_perso(this);" /></td>
+						<td id="65" onclick="clic_case(this)"><img src="../img/rat.png"  alt="Rat2" title="Rat2" id="rat2" class="pnj" onclick="clic_perso(this);" /></td>
 						<td id="66" onclick="clic_case(this)"></td>
 						<td id="67" onclick="clic_case(this)"></td>
 						<td id="68" onclick="clic_case(this)"></td>
@@ -151,13 +158,10 @@
 			</div>
 			<div id="div_actions">
 				<div id="action_used">
-					<img src="../img/map.png" 			alt="deplt" 	id="depl" 	onclick="clic_action(this)"/>
-					<img src="../img/sword.png" 		alt="attaque" 	id="attk" 	onclick="clic_action(this)"/>
-					<img src="../img/potionGreen.png" 	alt="popo1" 	id="pop1" 	onclick="clic_action(this)"/>
-					<img src="../img/potionRed.png" 	alt="popo2" 	id="pop2" 	onclick="clic_action(this)"/>
-					<img src="../img/gemBlue.png" 		alt="obj1"  	id="obj1" 	onclick="clic_action(this)"/>
-					<img src="../img/gemGreen.png" 		alt="obj2"  	id="obj2" 	onclick="clic_action(this)"/>
-					<img src="../img/x.png" 			alt="annul" 	id="annul" 	onclick="clic_action(this)"/>
+					<img src="../img/map.png" 			alt="deplt" 	title="Deplacement" id="depl" 		onclick="clic_action(this)"/>
+					<img src="../img/sword.png" 		alt="attaque" 	title="Attaquer"	id="attk" 		onclick="clic_action(this)"/>
+					<img src="../img/x.png" 			alt="annul" 	title="Annuler"		id="annul" 		onclick="clic_action(this)"/>
+					<img src="../img/x.png" 			alt="fin_tour" 	title="Fin du Tour"	id="fin_tour" 	onclick="clic_action(this)"/>
 					<span id="action_select"></span>
 				</div>
 				<div id="skill_used">
@@ -171,7 +175,20 @@
 		</div>
 		<div id="div_right">
 			<div id="log_combat"></div>
-			<div id="fiche_pnj"></div>
+			<div id="fiche_pnj">
+				<p id="fiche_rat1">
+					<label>Rat 1</label>
+					<label>Points de Vie	</label>	<span id="pv_rat1">1</span>
+					<label>Points d'action	</label>	<span id="pa_rat1">2</span>
+					<label>Points d'Attaque	</label>	<span id="att_rat1">1</span>
+				</p>
+				<p id="fiche_rat2">
+					<label>Rat 2</label>
+					<label>Points de Vie	</label>	<span id="pv_rat2">1</span>
+					<label>Points d'action	</label>	<span id="pa_rat2">2</span>
+					<label>Points d'Attaque	</label>	<span id="att_rat2">1</span>
+				</p>
+			</div>
 			<div id="skill_list"></div>
 		</div>
 	</div>
