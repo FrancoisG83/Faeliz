@@ -34,16 +34,16 @@ function clic_case(elem) {
 			alert("Votre heros est dejà sur cette case!");
 		}
 		
-		else if ( (Math.abs(deplacement) == 1 
-				|| (Math.abs(deplacement)>8 && Math.abs(deplacement)<12)) && pts_action >0) {
+		else if (	(Math.abs(deplacement) == 1 
+				|| 	(Math.abs(deplacement)>8 && Math.abs(deplacement)<12)) && pts_action >0) {
 			heros.parentNode.removeChild(heros);
 			document.getElementById(elem.id).innerHTML = chaine_heros;
 			document.getElementById("pa_heros").innerHTML = (pts_action - 1);
 		}
 		
 		else if (	(Math.abs(deplacement) == 2 
-				|| 	Math.abs(deplacement) == 8
-				||	Math.abs(deplacement) == 12
+				|| 	 Math.abs(deplacement) == 8
+				||	 Math.abs(deplacement) == 12
 				|| 	(Math.abs(deplacement) >17 && Math.abs(deplacement) <23)) && pts_action >1) {
 			heros.parentNode.removeChild(heros);
 			document.getElementById(elem.id).innerHTML = chaine_heros;
@@ -51,10 +51,10 @@ function clic_case(elem) {
 		}
 		
 		else if (	(Math.abs(deplacement) == 3
-				|| 	Math.abs(deplacement) == 7
-				||	Math.abs(deplacement) == 13
-				|| 	Math.abs(deplacement) == 17
-				||	Math.abs(deplacement) == 23
+				|| 	 Math.abs(deplacement) == 7
+				||	 Math.abs(deplacement) == 13
+				|| 	 Math.abs(deplacement) == 17
+				||	 Math.abs(deplacement) == 23
 				|| 	(Math.abs(deplacement) >26 && Math.abs(deplacement) <34)) && pts_action >2) {
 			heros.parentNode.removeChild(heros);
 			document.getElementById(elem.id).innerHTML = chaine_heros;
