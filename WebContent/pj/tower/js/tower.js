@@ -99,10 +99,10 @@ function clic_case(elem) {
 						var pv_pnj = parseInt(document.getElementById(id_pnj).innerHTML);
 						var atk_heros = parseInt(document.getElementById("atk_heros").innerHTML);
 						pv_pnj = pv_pnj-atk_heros;
-						alert("il y a "+elem_sur_case+" sur cette case, vous lui faites "+atk_heros+"pts de dégats, il lui reste "+pv_pnj+" pts de vie");
+						document.getElementById("log_combat").innerHTML= "il y a "+elem_sur_case+" sur cette case, vous lui faites "+atk_heros+"pts de dégats, il lui reste "+pv_pnj+" pts de vie";
 						
 						if (pv_pnj == 0) {
-							alert(elem_sur_case+" est mort!");
+							document.getElementById("log_combat").innerHTML= (elem_sur_case+" est mort!");
 							elem.removeChild(elem.getElementsByTagName('img')[0]);
 						}
 						document.getElementById(id_pnj).innerHTML = pv_pnj;

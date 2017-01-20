@@ -174,7 +174,7 @@
 			</div>
 		</div>
 		<div id="div_right">
-			<div id="log_combat"></div>
+			<div id="log_combat">		</div>
 			<div id="fiche_pnj">
 				<p id="fiche_rat1">
 					<label>Rat 1</label>
