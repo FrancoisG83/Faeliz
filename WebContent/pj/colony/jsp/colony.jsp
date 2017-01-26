@@ -16,18 +16,27 @@
 	
 	<div id="general">
 		<div id="div_left">
-			<button class= "selection" onclick="cases(10)">100 cases</button>
-			<button class= "selection" onclick="cases(20)">400 cases</button>
-			<button class= "selection" onclick="cases(30)">900 cases</button>
-			<button class= "selection" onclick="cases(40)">1600 cases</button>
-			<button class="action" onclick="generate">Run</button>
-			<button class= "action" onclick="stop">Stop</button>
+			
+			<button class= "selection" 	onclick="cases(10)">10*10</button>
+			<button class= "selection" 	onclick="cases(20)">20*20</button>
+			<button class= "selection" 	onclick="cases(30)">30*30</button>
+			<button class= "selection" 	onclick="cases(40)">40*40</button>
+			<button class= "selection" 	onclick="cases(50)">50*50</button>
+			<button class= "selection" 	onclick="cases(60)">60*60</button>
+			<button class= "action" 	onclick="run()">Run</button>
+			<button class= "action" 	onclick="stop()">Stop</button>
 		</div>
 		<div id="div_center">
 			<table id="cadre">
 			</table>
 		</div>
-		<div id="div_right"></div>
+		<div id="div_right">
+			<div id="nb"></div>
+			<label>Nombre de Cases : </label>
+			<p id="nb_cases">-</p>
+			<label>Nombre d'itérations : </label>
+			<p id="iterations">-</p>
+		</div>
 	</div>
 	
 	
