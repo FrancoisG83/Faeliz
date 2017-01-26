@@ -18,20 +18,10 @@ function cases(nb) {
 		document.getElementById("cadre").appendChild(new_row);
 		
 		for (j=0; j<nb_col; j++){
+			var num_cel = j+(i*nb);
 			var new_cel = document.createElement("td");
-			
-			var i_string;
-			var j_string;
-			
-			if (i>=10) { i_string= i.toString()}
-			else {i_string = "0"+i.toString()};
-			
-			if (j>=10) {j_string= j.toString()}
-			else {j_string = "0"+j.toString()}
-						
-			var id_string = i_string.concat(j_string);
-			
-			new_cel.setAttribute("id", id_string);
+	
+			new_cel.setAttribute("id", num_cel);
 			new_cel.style.backgroundColor = couleur_random();
 			document.getElementById(nom_row).appendChild(new_cel);
 		}

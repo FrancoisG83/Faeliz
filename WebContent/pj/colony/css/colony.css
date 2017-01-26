@@ -68,34 +68,47 @@ h1 {
 #div_left {
 	border:		1px solid purple;
 	width:		200px;
-	height:		750px;
+	height:		770px;
 }
 
 #div_center {
 	border: 	1px solid white;
-	width:		750px;
-	height:		750px;
+	width:		770px;
+	height:		770px;
 }
 
 #cadre {
 	border:			1px solid blue;
-	width:			600px;
-	height:			600px;
-	margin-top: 	75px;
-	margin-left:	75px;
+	width:			750px;
+	height:			750px;
+	margin-top: 	10px;
+	margin-left:	10px;
 }
 
 #div_right {
 	border:		1px solid purple;
-	width:		400px;
-	height:		750px;
+	width:		330px;
+	height:		770px;
 }
 
-button {
+button.selection {
 	border:		1px solid black;
 	margin:		50px;
 	width:		100px;
 	background:		rgb(255, 128,0);
+	-webkit-box-shadow: inset 0px 5px 0px 0px rgba(255, 255, 255, .8);
+	-moz-box-shadow: 	inset 0px 5px 0px 0px rgba(255, 255, 255, .8);
+	box-shadow: 		inset 0px 5px 0px 0px rgba(255, 255, 255, .8);
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+button.action {
+	border:		1px solid black;
+	margin:		50px;
+	width:		100px;
+	background:		rgb(125, 125, 125);
 	-webkit-box-shadow: inset 0px 5px 0px 0px rgba(255, 255, 255, .8);
 	-moz-box-shadow: 	inset 0px 5px 0px 0px rgba(255, 255, 255, .8);
 	box-shadow: 		inset 0px 5px 0px 0px rgba(255, 255, 255, .8);

@@ -16,9 +16,12 @@
 	
 	<div id="general">
 		<div id="div_left">
-			<button onclick="cases(10)">100 cases</button>
-			<button onclick="cases(20)">400 cases</button>
-			<button onclick="cases(30)">900 cases</button>
+			<button class= "selection" onclick="cases(10)">100 cases</button>
+			<button class= "selection" onclick="cases(20)">400 cases</button>
+			<button class= "selection" onclick="cases(30)">900 cases</button>
+			<button class= "selection" onclick="cases(40)">1600 cases</button>
+			<button class="action" onclick="generate">Run</button>
+			<button class= "action" onclick="stop">Stop</button>
 		</div>
 		<div id="div_center">
 			<table id="cadre">
