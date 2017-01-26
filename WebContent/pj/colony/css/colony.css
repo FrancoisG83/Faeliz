@@ -1,4 +1,4 @@
-@CHARSET "UTF-8";
+@CHARSET "ISO-8859-1";
 
 /* ----------------------------------------------------------------------------- */
 /* ------------------ MENU Petits Jeux-------------------------------------------*/
@@ -25,14 +25,14 @@
 	list-style:		none;
 }
 
-#menu_pj li, #menu_pj li a /* Ã‰lÃ©ments des listes */      
+#menu_pj li, #menu_pj li a /* Éléments des listes */      
 { 	
 	background:			rgb(0,0,150);
     margin: 			5px;
     padding : 			0px;
     color : 			#fff; /* couleur du texte */
     text-align:			center;
-	text-decoration : 	none; /* on supprime le style par dÃ©faut des liens (la plupart du temps = soulignÃ©) */
+	text-decoration : 	none; /* on supprime le style par défaut des liens (la plupart du temps = souligné) */
     height:				30px;
     width: 				150px;   
     -webkit-box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, .2);
@@ -45,20 +45,68 @@
 
 
 /* ----------------------------------------------------------------------------- */
-/* ------------------ PAGE Petits Jeux------------------------------------------------*/
+/* --------------------------- Page Colony---------------------------------------*/
 /* ----------------------------------------------------------------------------- */
-
 body {
-	background-position:center center;
-	color: 				white;
 	background-color: 	black;
+	color			:	white
 }
 
 h1 {
-	margin-left : 		auto;
-	margin-top: 		10px;
-	font: 				67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
-	font-size:			26px;
-	font-style: 		italic;
-	color: 				white;
+	color:		purple;
+	font-size: 	24;
+	font-style: italic;
+}
+
+#general {
+	border :	1px solid white;
+	display:	flex;
+	width:		1300px;
+	height:		770px;
+}
+
+#div_left {
+	border:		1px solid purple;
+	width:		200px;
+	height:		750px;
+}
+
+#div_center {
+	border: 	1px solid white;
+	width:		750px;
+	height:		750px;
+}
+
+#cadre {
+	border:			1px solid blue;
+	width:			600px;
+	height:			600px;
+	margin-top: 	75px;
+	margin-left:	75px;
+}
+
+#div_right {
+	border:		1px solid purple;
+	width:		400px;
+	height:		750px;
+}
+
+button {
+	border:		1px solid black;
+	margin:		50px;
+	width:		100px;
+	background:		rgb(255, 128,0);
+	-webkit-box-shadow: inset 0px 5px 0px 0px rgba(255, 255, 255, .8);
+	-moz-box-shadow: 	inset 0px 5px 0px 0px rgba(255, 255, 255, .8);
+	box-shadow: 		inset 0px 5px 0px 0px rgba(255, 255, 255, .8);
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+#cadre td{
+	border:		1px solid white;
+/* 	height:		50px; */
+/* 	width:		50px; */
+	
 }
