@@ -11,7 +11,7 @@ function cases(nb) {
 	var tableau = document.getElementById("cadre");
 	var p_nb_cases = document.getElementById("nb_cases");
 	var div_nb = document.getElementById("nb");
-	
+
 	
 	tableau.innerHTML = "";
 	p_nb_cases.innerHTML = "";
