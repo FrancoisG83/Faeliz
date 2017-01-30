@@ -109,7 +109,7 @@ function generate() {
 			};
 		};
 		
-		if (compteur == 0 || compteur == 2 || compteur == 4) {
+		if (compteur == 0 || compteur == 1 || compteur == 3) {
 			tableau[i] = case_x.style.backgroundColor;
 		} else {
 			if (case_x.style.backgroundColor == "Black") {tableau[i] = "White"};
