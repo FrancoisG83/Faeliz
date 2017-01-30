@@ -47,7 +47,7 @@ function clic_case(elem) {
 	var pos_heros 		= parseInt(document.getElementById("heros").parentNode.id);
 	var deplacement 	= pos_heros-num_case;
 	var heros 			= document.getElementById("heros");
-	var chaine_heros 	= '<img src="../img/chevalier.png" id="heros" class="heros" onclick="clic_perso(this);" />';
+	var chaine_heros 	= '<img src="../img/chevalier.png" alt="Heros" title="Heros" id="heros" class="heros" onclick="clic_perso(this);" />';
 	var pts_action		= parseInt(document.getElementById("pa_heros").innerHTML);
 	
 //Réaction du clic sur une case si l'action selectionnée est "déplacement"	
